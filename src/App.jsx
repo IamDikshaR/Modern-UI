@@ -3,6 +3,7 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 import Button from "./components/Button";
 import Header from "./components/Header";
 import { BrowserRouter as Router } from "react-router-dom";
+import Hero from "./components/Hero";
 // import "./App.css";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Router>
           <Header />
         </Router>
+        <Hero />
       </div>
     </>
   );
