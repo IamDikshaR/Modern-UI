@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import Header from "./components/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
 // import "./App.css";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Header />
         </Router>
         <Hero />
+        <Benefits />
       </div>
     </>
   );
