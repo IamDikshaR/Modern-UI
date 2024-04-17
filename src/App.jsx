@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
 // import "./App.css";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         </Router>
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
     </>
   );
