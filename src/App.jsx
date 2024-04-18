@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
+import Services from "./components/Services";
 // import "./App.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Hero />
         <Benefits />
         <Collaboration />
+        <Services />
       </div>
     </>
   );
